@@ -29,7 +29,7 @@ export const App = () => {
       <Container>
         <TitleOfBlocks>Please leave feedback</TitleOfBlocks>
         <FeedbackOptionsComponent
-          currentValue={{ good, neutral, bad }}
+          options={['good', 'neutral', 'bad']}
           handleFeedbacksHandler={handleFeedbacks}
         />
 

@@ -3,9 +3,9 @@ import { ButtonsStyle } from './FeedbackOptionsComponent.styled';
 
 export const FeedbackOptionsComponent = ({
   handleFeedbacksHandler,
-  currentValue,
+  options,
 }) => {
-  const options = ['good', 'neutral', 'bad'];
+  //const options = ['good', 'neutral', 'bad'];
 
   return (
     <div>
